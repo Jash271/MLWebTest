@@ -1,0 +1,21 @@
+URL: http://127.0.0.1:5000/
+Method: POST
+Form Data:
+{
+    "gender":1,
+    "age":3,
+    "hypertension":0,
+    "heart_disease":1,
+    "ever_married":1,
+    "work_type":2,
+    "Residence_type":1,
+    "avg_glucose_level":228.69,
+    "bmi":36.6,
+    "smoking_status":1
+}
+
+
+OUTPUT:
+{
+    "output": 0
+}
