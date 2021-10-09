@@ -18,7 +18,8 @@ Form Data:
 }
 OUTPUT:
 {
-    "output": 1
+    "output": 1,
+    "status": "Present"
 }
 
 Form Data:
@@ -39,5 +40,6 @@ Form Data:
 }
 OUTPUT:
 {
-    "output": 0
+    "output": 0,
+    "status": "No Presence"
 }

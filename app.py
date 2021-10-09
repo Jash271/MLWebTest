@@ -13,7 +13,11 @@ def ml_api():
     final_features = [np.array(list(data.values()))]
     prediction = model.predict(final_features)
     output = prediction[0]
-    return jsonify({"output" : int(output)})
+    if int(output) == 0:
+        status = "No Presence"
+    elif int(output) == 1:
+        status = "Present"
+    return jsonify({"output" : int(output), "status": status})
 
 if __name__ == "__main__":
     app.run(debug=True)
